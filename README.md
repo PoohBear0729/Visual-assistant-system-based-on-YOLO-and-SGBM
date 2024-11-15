@@ -1,6 +1,6 @@
 # Enhanced Car Detection and Ranging in Adverse Conditions Using Improved YOLO-LiRT and FSGBMN.
 ## 这是关于利用FSGBMN 和改进的YOLO 进行目标检测测距的代码, 实时进行目标检测和测距
-
+## 环境依赖: ultralytics-YOLO, opencv2, torch, thread
 ## 使用说明：
 
 
