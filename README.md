@@ -23,6 +23,6 @@ training_datasets = FSBGM_Datasets('I:\\visual_system_data\\latastes\\FSGBM\\tra
 
 model = YOLO("F:\\algorithm\\ultralytics-main\\yolov8n.pt") 修改为YOLO-LiRT.pt的位置,或您自己的模型的位置。
 
-## 此外，该系统方法不仅仅可以对汽车进行目标检测和测距，对任何物体都可以，只需要修改模型权重为对应的权重即可，以及获取FSGBMN的权重, 以及不使用FSGBMN，不使用FSGBMN请将FSGBMN拟合误差的部分代码删除即可，只有YOLO加SGBMN在光照条件和近距离的情况下效果差强人意，但遇到远距离，>6m 或光照不足会出现精度较差的情况, 此为SGBM算法的通病。
+## 此外，该系统方法不仅仅可以对汽车进行目标检测和测距，对任何物体都可以，只需要修改模型权重为对应的权重即可，以及获取FSGBMN的权重, 以及不使用FSGBMN，不使用FSGBMN请将FSGBMN拟合误差的部分代码删除即可，只有YOLO加SGBMN在光照条件和近距离的情况下效果差强人意，但遇到远距离，>6m 或光照不足会出现精度较差的情况, 此为SGBM算法的通病.论文录取后将拍摄视频介绍详细使用方法。
 
 
